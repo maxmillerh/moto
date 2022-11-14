@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Мототехцентр MotoWorld</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg header-bg">
+            <div class="container d-flex justify-content-between">
+
+                <a class="navbar-brand" href="index.html">
+                    <!-- <span class="logo-text">M</span>
+                    <img class="logo" src="img/logo_prob (1).png" alt="">
+                    <span class="logo-text mar-5">T</span>
+                    <img class="logo" src="img/logo_prob (1).png" alt="">
+                    <span class="logo-text">World</span> -->
+                    <img src="img/logo5.png" alt="">
+
+
+                </a>
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="img/burger.png" width="30px" height="30px"
+                            alt=""></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+                    <span></span>
+
+                    <ul class="navbar-nav spec-position">
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-itd active" aria-current="page" href="#about">О нас </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-itd" href="#advantages">Преимущества</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-itd" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-itd" href="#prices">Цены</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-itd" href="#form">Записаться</a>
+                        </li>
+                    </ul>
+
+                    <span class="phone">8(900)-456-78-90</span>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header-end -->
+
+
+    <!-- carousel-start -->
+    <div class="carousel-itd ">
+        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button id="about" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="img/slide_1.png" class="d-block w-100" alt="...">
+                    <div class="carusel-text carousel-caption d-none d-md-block">
+                        <h3>МУЛЬТИБРЕНДОВЫЙ СЕРВИС НОВОГО ПОКОЛЕНИЯ</h3>
+                        <h1>Техцентр MotoWorld</h1>
+                        <p>Оставьте заявку и мы бесплатно доставим мотоцикл до сервиса на собственном эвакуаторе</p>
+                        <a href="#form" class="btn-itd btn-a">Записаться</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/slide_2.png" class="d-block w-100" alt="...">
+                    <div class="carusel-text carousel-caption d-none d-md-block">
+                        <h3>Самое выгодное предложение!</h3>
+                        <h2>Акция до конца декабря</h2>
+                        <p>Скидка 20% на обслуживание всей мототехники </p>
+                        <a href="#form" class="btn-itd btn-a">Записаться</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide_3.png" class="d-block w-100" alt="...">
+                    <div class="carusel-text carousel-caption d-none d-md-block">
+                        <h3>Новое поступление импортных запчастей</h3>
+                        <h2>Оригинальные запчасти TAKOYAMA</h2>
+
+                        <a href="#form" class="btn-itd btn-a">Записаться</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- carousel-end -->
+
+
+    <!-- about-start -->
+    <section class="about">
+        <div class="container">
+            <div class="title">
+                <h2>Кто мы</h2>
+            </div>
+            <p class="text-p">
+                Много лет наша компания занимается ремонтом мототехники. В нашей ремзоне на специализированном
+                оборудовании проводится диагностика, ремонт и тюнинг. Удобное расположение, собственная служба
+                эвакуации, наличие запчастей обеспечивают наилучший сервис!
+            </p>
+
+            <hr id="advantages"
+                style=" height: 2px; background-color: var(--black); color: var(--black); border:none; opacity: 1;">
+        </div>
+        <a href="#" id="up" class="up opas">↑</a>
+    </section>
+    <!-- about-end -->
+
+
+    <!-- advantages-start -->
+    <section class="advantages">
+        <div class="container-sm">
+            <h2 class="title-2 mt-60">Наши преимущества</h2>
+            <h4 class="subtitle">Ключевые плюсы нашего техцентра за долгие годы сделали нас лидером в области
+                обслуживания мототехники</h4>
+            <div class="row gx-3 gy-5">
+                <div class="col-6">
+                    <h3>Просторная ремзона</h3>
+                    <p>Более 300 м2 позволяют проводить ремонт сразу на нескольких постах</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-2">Запчасти и расходники в наличии</h3>
+                    <p>Большое количество запасных частей и расходных материалов в наличии на нашем складе позволяют
+                        проводить оперативный ремонт и обслуживание всех популярных мотоциклов. Поставка более редких
+                        запчастей укладывается в 24 часа.</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-3">Удобное расположение</h3>
+                    <p>Мы находимся на территории специализированного спортивного торгового центра "Формула Х"
+                        (пересечение трассы М4 и МКАД), в котором есть удобная зона ожидания ремонта</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-4"> Квалифицированные механики</h3>
+                    <p>Профессиональные специалисты проведут диагностику неисправности, оценят стоимость ремонта и
+                        обслуживания, проконсультируют по тюнингу и эксплуатации и дадут дальнейшие рекомендации</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-5">Оборудование</h3>
+                    <p>За годы работы мы собрали уникальный набор оборудования дилерского уровня. Оно позволяет
+                        диагностировать и производить ремонт на высочайшем уровне.</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-6"> Комфортная зона ожидания</h3>
+                    <p>Зона ожидания с кожаной мебелью, фильмами, игровой приставкой и чашкой кофе позволит скоротать
+                        время в ожидании ремонта</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-7"> Гарантия на все виды работ</h3>
+                    <p>На все работы в нашем техцентре действует гарантия. В зависимости от используемых запасных частей
+                        ее срок составляет от 6 до 12 месяцев</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-8"> Все формы оплаты</h3>
+                    <p>Мы работаем с физическими и юридическими лицами. Возможна наличная оплата, оплата картами, в т.ч.
+                        кредитными, безналичный расчет.</p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-9"> Полный пакет документов</h3>
+                    <p>На каждый мотоцикл составляется заказ-наряд. В случае проведения диагностики также прикладывается
+                        лист диагностики, показания компьютера и другие печатные материалы. При оплате выбивается чек.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <h3 class="title-img-10"> Новейшее оборудование</h3>
+                    <p>В работе мы используем диагностическое оборудование дилерского уровня - это комплекс диагностики
+                        BMW, комплекс TEXA, Healtech. Мы имеем техническую возможность компьютерной диагностики 99%
+                        современных мотоциклов. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- advantages-end -->
+
+    <hr id="reviews" class="hr-2 mt-60">
+
+    <!-- reviews-start -->
+    <section class="reviews">
+        <div class="container ">
+
+            <h2 class="title-2 mt-60" style="color: #fff;">Отзывы клиентов с <span
+                    style="color: var(--red);">Яндекс</span></h2>
+            <p class="text-center" style="color:#fff; font-weight: 600; margin-top: 30px; margin-bottom: 50px;"><span
+                    class="yellow">★★★★★ 5.0 </span> 234 отзыва</p>
+
+            <div class="row g-5 ">
+
+                <div class="col-lg-4 col-md-6 col-12 plr">
+
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Антон</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 14 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Отличный сервис!
+                            Ребята внимательные и аккуратные. Хорошее, можно сказать, дружеское отношение, что в наше
+                            время редкость, к сожалению. Хорошо, что есть такие места. Цены умеренные. Находится сервис
+                            в ТЦ Формула Х, что удобна с точки зрения досуга на время короткого ремонта.
+                            Есть зимнее хранение мотоциклов</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 plr">
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Андрей</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 3 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Приехал по совету
+                            знакомых и ни разу не пожалел. Быстро, качественно, недорого. В моем случае- еще и рядом, на
+                            юге Москвы. Ребятам респект! ✊🏼 Еще чуть-чуть, и Монстр будет как новий)) очень порадовало,
+                            что появилась компьютерная диагностика для Дукасов. Был здесь уже трижды, что, на мой
+                            взгляд, является свидетельством категорически пристойного заведения. Всем двухколесным -
+                            рекомендую!</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 plr">
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Николай Ч.</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 9 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Пригнал мот на
+                            диагностику и замену масла. Записывался по телефону, Лера все доступно и грамотно рассказала
+                            и определила по цене. Мастер Владимир ощупал мою Хонду со всех сторон, все посмотрел, дал
+                            исчерпывающие рекомендации. В итоге я полностью спокоен за мот и за себя) плюсом сделали
+                            приятную скидку! Рекомендую и сам буду ездить обслуживаться! Спасибо</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 plr">
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Марго А.</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 2 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Сервис очень
+                            нравится! Приезжаю сюда уже четвертый раз, ремонт очень качественный, очень нравится, что к
+                            работе относятся ответственно, всегда подскажут, расскажут. Люди очень человечные и с
+                            юмором))
+                            Ребята, спасибо большое! На ремонт и обслуживание только к вам!</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 plr">
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Сергей Мираниченко</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 7 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Отличный
+                            мотосервис👍персонал вежливый и дружелюбный😀 хорошие цены💰Комфортная зона
+                            ожидания/отдыха🛌 качеством оказанных мне услуг более чем доволен🤝</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 plr">
+                    <div class="review">
+                        <p style="font-weight: 700 ; margin-bottom: 0;">Егор Игнатов</p>
+                        <p
+                            style="margin-top: 0; font-weight: 300; margin-bottom: 20px; color: rgb(147, 147, 147); font-size: 14px;">
+                            Знаток города 4 уровня</p>
+                        <p class="yellow" style="margin-bottom: 3px;"> ★★★★★</p>
+                        <p style="font-weight: 300; font-size: 14px; color: black; line-height: 18px;">Потрясающий
+                            сервис, с безупречным исполнение работ, Внимательные и знающие своё дело мастера. И шины
+                            поменяют и цепь надрают, и диагностика бесплатная. Рекомендую.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- reviews-end -->
+
+    <span id="prices"></span>
+
+    <!-- prices-start -->
+    <section class="prices mt-60">
+        <div class="container-sm">
+            <h2>Некоторые цены</h2>
+            <hr>
+            <table class="table-prices">
+                <tr>
+                    <td>Замена 4-х свечей (Классик, CB400-1300, Bandit и т.д.)</td>
+                    <td>от 350 руб./шт.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Замена масла в ДВС</td>
+                    <td>от 1400 руб.</td>
+                </tr>
+                <tr>
+                    <td>Регулировка клапанов</td>
+                    <td>от 8000 руб.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Шиномонтаж (комплект двух колес)</td>
+                    <td>от 2800 руб.</td>
+                </tr>
+                <tr>
+                    <td>Замена рулевых подшипников</td>
+                    <td>от 3500 руб.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Переборка вилки</td>
+                    <td>от 6500 руб.</td>
+                </tr>
+                <tr>
+                    <td>Замена тормозных колодок</td>
+                    <td>от 600 руб.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Замена тормозного диска</td>
+                    <td>от 600 руб.</td>
+                </tr>
+                <tr>
+                    <td>Замена цепи и звезд (комплект)</td>
+                    <td>3600 руб.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Комплекс обслуживания цепи</td>
+                    <td>1400 руб.</td>
+                </tr>
+                <tr>
+                    <td>Замена антифриза</td>
+                    <td>от 1200 руб.</td>
+                </tr>
+                <tr class="tr-gray">
+                    <td>Эвакуация по Москве и МО</td>
+                    <td>от 3000 руб.</td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+    <!-- prices-end -->
+
+
+    <!-- intermediate-start -->
+    <section class="intermediate">
+        <div class="container">
+            <hr>
+            <p class="text-p align-p">Мы знаем толк в ремонте мотоциклов.
+                Доверьте ремонт профессионалам</p>
+            <span id="form"></span>
+            <hr>
+        </div>
+    </section>
+    <!-- intermediate-end -->
+
+
+    <!-- application-start -->
+    <section class="application">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="map col-6 p-0">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A24e05df6f32e614c3f99463519356279a5e45527028118fb9fd4ef3afb49ecfc&amp;source=constructor"
+                        width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+                <div class="form col-6">
+                    <h5 class="text-center form_title">Заполните заявку</h5>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" required>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Фамилия"
+                                required>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <input type="email" name="email" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" placeholder="Почта" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Номер"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="Город"
+                                required>
+                        </div>
+                        <div class="block-center">
+                            <button id="btn-form" class="btn-itd form-btn" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- application-end -->
+
+    <!-- footer-start -->
+    <footer class="footer">
+        <div class="container d-flex justify-content-between">
+            <span>© 2022 MotoWorld. Made by Maxim Usanov</span>
+            <div class="soc-icon">
+                <a target="_blank" href="https://vk.com/maxmillerr">
+                    <div class="img-footer">
+                        <img src="img/vk.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="img-footer">
+                        <img src="img/telegram.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="img-footer">
+                        <img src="img/whatsapp.png" alt="">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        document.querySelector("#btn-form").onclick = function () {
+            location.reload();
+            alert("Спасибо за заявку, в ближайшее время мы с вами свяжемся")
+        }
+
+        document.querySelector("#up").onclick = function () {
+            document.querySelector("#up").classList.add("opas");
+        }
+
+        window.addEventListener('scroll', function () {
+            document.querySelector("#up").classList.remove("opas");
+        });
+
+
+    </script>
+</body>
+
+</html>
