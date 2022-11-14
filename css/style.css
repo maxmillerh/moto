@@ -236,21 +236,11 @@ body {
 
 /* advantages-start */
 
-@media (min-width: 1400px) {
-    .container-sm {
-        max-width: 1120px;
-    }
-}
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     .container-sm {
-        max-width: 980px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container-sm {
-        max-width: 800px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
@@ -461,8 +451,11 @@ body {
 }
 
 .map{
-    
     height: auto;
+}
+
+iframe{
+    min-height: 400px;
 }
 
 .form{
@@ -472,6 +465,16 @@ body {
     opacity: 96%;
     
 }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .form{
+        padding: 25px 25px;
+        
+    }
+}
+
 
 .form_title{
     color: #fff;
