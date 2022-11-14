@@ -258,6 +258,12 @@ body {
     }
 }
 
+@media (min-width: 1400px) {
+    .container-sm {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
 
 .title-2 {
     text-align: center;
